@@ -34,7 +34,7 @@ function setup() {
   stonesGroup = createGroup();
   
   monkey.setCollider("circle",0,0,180);
-  monkey.debug = true;
+  monkey.debug = false;
   
   ban = createSprite(315,19);
   ban.addImage("ban",bananaImage);
